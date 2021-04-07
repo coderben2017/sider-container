@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="sider-container">
     <div class="sider" :style="{width: sider.width + 'px', padding: isExpanded ? '12px' : '0'}">
       <div class="anchor" @click="handleAnchorClick">
         <svg 
@@ -71,7 +71,7 @@
 </script>
 
 <style scoped lang="less">
-.container {
+.sider-container {
   height: 100%;
   padding: 0;
   display: flex;

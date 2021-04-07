@@ -7,7 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
     filename: 'sider-container.min.js',
-    library: "xEleTable",
+    library: "sider-container",
     libraryTarget: 'umd',
     umdNamedDefine: true
   },

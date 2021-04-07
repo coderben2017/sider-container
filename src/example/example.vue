@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-grey">
+  <div style="background: #f7f7f7">
     <sider-container style="height: 100vh;">
       <template slot="sider">这里是sider区域</template>
       <template slot="content">这里是content区域</template>
