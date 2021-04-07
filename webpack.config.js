@@ -23,18 +23,19 @@ module.exports = {
         test: /\.vue$/,
         loader: 'vue-loader',
         options: {
-          loaders: {}
+          loaders: {
+            css: [
+              {
+                loader: 'less-loader'
+              }
+            ]
+          }
           // other vue-loader options go here
         }
       },
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        exclude: /node_modules/
-      },
-      {
-        test: /\.less$/,
-        loader: 'less-loader',
         exclude: /node_modules/
       },
       {

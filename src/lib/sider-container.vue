@@ -70,6 +70,46 @@
   }
 </script>
 
-<style scoped>
-  @import "./sider-container.less"
+<style scoped lang="less">
+.container {
+  height: 100%;
+  padding: 0;
+  display: flex;
+
+  .sider {
+    position: relative;
+    height: 100%;
+    margin-right: 20px;
+    background-color: #fff;
+
+    .anchor {
+      width: 16px;
+      height: 60px;
+      position: absolute;
+      right: -16px;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #fff;
+      color: #BEBEBE;
+      font-size: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      cursor: pointer;
+      transition: all .3s ease-in-out;
+      padding-top: 15px;
+      text-align: center;
+
+      &:hover {
+        width: 20px;
+        right: -20px;
+      }
+    }
+  }
+
+  .content {
+    height: 100%;
+    padding: 12px;
+    background-color: #fff;
+  }
+}
 </style>
