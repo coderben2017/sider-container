@@ -1,7 +1,7 @@
 {
   "name": "sider-container",
   "description": "可伸缩的弹性侧边栏vue组件，效果类似阿里云控制台",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "coderben <coderben2016@126.com>",
   "license": "MIT",
   "private": false,
